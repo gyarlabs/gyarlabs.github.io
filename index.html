@@ -4,125 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gyarlabs</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Welcome to my personal GitHub Page">
+    <title>Welcome to My GitHub Page</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: #282c34;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
             color: white;
-            padding: 1rem;
             text-align: center;
-        }
-
-        nav {
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            background-color: #61dafb;
-            padding: 0.5rem;
+            align-items: center;
+            height: 100vh;
         }
 
-        nav a {
-            margin: 0 1rem;
+        h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+            max-width: 600px;
+            line-height: 1.5em;
+        }
+
+        a {
+            color: #ffd700;
             text-decoration: none;
-            color: #282c34;
             font-weight: bold;
+            border: 2px solid #ffd700;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
         }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            padding: 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .hero {
-            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
-            color: white;
-            text-align: center;
-            padding: 5rem 1rem;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-
-        .hero p {
-            font-size: 1.5rem;
+        a:hover {
+            background-color: #ffd700;
+            color: #333;
         }
 
         footer {
-            background-color: #282c34;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
+            position: absolute;
+            bottom: 20px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Gyarlabs</h1>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="hero">
-        <h1>Hello, World!</h1>
-        <p>This is my GitHub Page. Take a look at my projects below.</p>
-    </div>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi there! I'm a DevOps Engineer with a passion for automating, optimizing, and managing high-performance infrastructure and applications. I'm also a Certified Kubernetes Administrator (CKA), and right now, I'm diving into FinOps to help manage cloud costs effectively.</p>
-            <h3>Skills & Expertise</h3>
-            <ul>
-                <li><strong>CI/CD Pipelines</strong>: I build seamless CI/CD pipelines with tools like Github Actions, GitlabCI and Jenkins.</li>
-                <li><strong>Cloud Platforms</strong>: I have experience with AWS, and Google Cloud Platform, currently learn Huawei Cloud.</li>
-                <li><strong>Containerization</strong>: I'm skilled in Docker and Kubernetes for managing containers and microservices.</li>
-                <li><strong>Infrastructure as Code</strong>: I use Terraform, Ansible to manage infrastructure as code, currrently learn Pulumi.</li>
-                <li><strong>Monitoring & Logging</strong>: I set up monitoring and logging with Prometheus, Grafana, Dynatrace.</li>
-                <li><strong>FinOps</strong>: I'm currently focusing on FinOps to optimize cloud costs and improve financial accountability in DevOps processes.</li>
-                <li><strong>Version Control</strong>: I'm proficient with Git and GitHub for source code management and collaboration.</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>I'd love to hear from you! If you have any questions or want to collaborate on a project, feel free to reach out:</p>
-            <ul>
-                <li><strong>Email</strong>: <a href="mailto:egyardian99@gmail.com">egyardian99@gmail.com</a></li>
-                <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/egyardian101/">Linkedin</a></li>
-            </ul>
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Gyarlabs</p>
-    </footer>
+    <h1>Welcome to My GitHub Page</h1>
+    <p>This is a simple yet elegant landing page for my GitHub profile. Explore my projects, view my work, and connect with me.</p>
+    <a href="https://github.com/gyarlabs" target="_blank">Visit My GitHub</a>
+
+    <footer>&copy; 2024 Your Name</footer>
 </body>
 
 </html>
